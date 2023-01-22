@@ -1,0 +1,35 @@
+.nav {
+    /** SNS */
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5%;
+
+    /** images */
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/haikyu.jpeg);
+    text-align: center;
+
+    /* 背景の配置を設定(横、縦)*/
+    background-position: center 48%;
+}
+
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 15%;
+}
+
+a {
+    color: black;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
